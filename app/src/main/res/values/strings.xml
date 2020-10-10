@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PhysicsCalculator</string>
+    <string name="masa">Masa</string>
+    <string name="velocidad_inicial">Velocidad Inicial</string>
+    <string name="velocidad_final">Velocidad Final</string>
+    <string name="todo">TODO</string>
+    <string name="masa_1">Masa 1</string>
+    <string name="masa_2">Masa 1</string>
+    <string name="velocidad_final_2">Velocidad Final 2</string>
+    <string name="velocidad_final_1">Velocidad Final 1</string>
+    <string name="velocidad_inicial_2">Velocidad Inicial 2</string>
+    <string name="velocidad_inicial_1">Velocidad Inicial 1</string>
 </resources>

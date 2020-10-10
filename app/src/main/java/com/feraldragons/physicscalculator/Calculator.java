@@ -1,4 +1,4 @@
-package com.YoNoSoySantiago.myfirstapp;
+package com.feraldragons.physicscalculator;
 
 import android.text.PrecomputedText;
 

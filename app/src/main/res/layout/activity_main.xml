@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn m"
+        android:id="@+id/btnMass"
         android:layout_width="245dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
@@ -15,15 +15,15 @@
         android:background="#03A9F4"
         android:backgroundTint="#14B3C8"
         android:backgroundTintMode="src_atop"
-        android:text="Masa"
+        android:text="@string/masa"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/btn vi"
+        app:layout_constraintBottom_toTopOf="@+id/btnVelocity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/btn vi"
+        android:id="@+id/btnVelocity"
         android:layout_width="243dp"
         android:layout_height="66dp"
         android:layout_marginTop="8dp"
@@ -31,27 +31,27 @@
         android:background="#514E4E"
         android:backgroundTint="#14B3C8"
         android:backgroundTintMode="src_atop"
-        android:text="Velocidad Inicial"
+        android:text="@string/velocidad_inicial"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/btn vf"
+        app:layout_constraintBottom_toTopOf="@+id/btnVelocityFinal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn m" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMass" />
 
     <Button
-        android:id="@+id/btn vf"
+        android:id="@+id/btnVelocityFinal"
         android:layout_width="249dp"
         android:layout_height="63dp"
         android:layout_marginTop="30dp"
         android:background="#494545"
         android:backgroundTint="#14B3C8"
         android:backgroundTintMode="src_atop"
-        android:text="Velocidad Final"
+        android:text="@string/velocidad_final"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn vi" />
+        app:layout_constraintTop_toBottomOf="@+id/btnVelocity" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -59,10 +59,11 @@
         android:layout_height="176dp"
         android:layout_marginTop="72dp"
         android:layout_marginBottom="76dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn m"
+        app:layout_constraintBottom_toTopOf="@+id/btnMass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/log" />
+        app:srcCompat="@drawable/log"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,146 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".VelocityActivity">
 
     <EditText
         android:id="@+id/editTextTextPersonName18"
         android:layout_width="129dp"
         android:layout_height="45dp"
-        android:layout_marginTop="560dp"
-        android:layout_marginEnd="228dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="192dp"
-        android:layout_marginTop="576dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
         android:text="Velocidad Inicial 2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="312dp"
-        android:layout_marginBottom="116dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
         app:srcCompat="@drawable/inicial" />
 
     <EditText
         android:id="@+id/editTextTextPersonName17"
         android:layout_width="129dp"
         android:layout_height="45dp"
-        android:layout_marginTop="468dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="28dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="484dp"
+        android:layout_width="112dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="96dp"
         android:text="Velocidad Inicial 1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="356dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
         android:text="Velocidad Final"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="264dp"
-        android:layout_marginEnd="240dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="64dp"
         android:text="Masa 2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName7"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
         android:layout_width="186dp"
         android:layout_height="45dp"
-        android:layout_marginTop="340dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="186dp"
         android:layout_height="45dp"
-        android:layout_marginTop="252dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="56dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
         android:layout_width="186dp"
         android:layout_height="45dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ma1"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/ma1" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="240dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="64dp"
         android:text="Masa 1"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="186dp"
         android:layout_height="45dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="44dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,52 +147,58 @@
         android:id="@+id/imageView8"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/velocimetro"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/velocimetro" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
         android:text="Velocidad Final"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/masfinal"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/masfinal" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="336dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:srcCompat="@drawable/velocimetro" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginBottom="208dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
         app:srcCompat="@drawable/inicial" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
