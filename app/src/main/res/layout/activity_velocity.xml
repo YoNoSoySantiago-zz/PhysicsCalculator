@@ -4,18 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    android:backgroundTint="@color/cardview_dark_background"
     tools:context=".VelocityActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName18"
+        android:id="@+id/textResultIV2"
         android:layout_width="129dp"
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="12dp"
+        android:textColor="@color/cardview_light_background"
+
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
+        android:enabled="false"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toStartOf="@+id/textView17"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textResultIV1" />
 
     <TextView
         android:id="@+id/textView17"
@@ -23,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="20dp"
+        android:textColor="@color/cardview_light_background"
         android:text="Velocidad Inicial 2"
         app:layout_constraintEnd_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -33,31 +39,35 @@
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="36dp"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
         app:srcCompat="@drawable/inicial" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName17"
+        android:id="@+id/textResultIV1"
         android:layout_width="129dp"
         android:layout_height="45dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="28dp"
         android:ems="10"
+        android:enabled="false"
         android:inputType="textPersonName"
+
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="112dp"
+        android:layout_width="120dp"
         android:layout_height="15dp"
-        android:layout_marginTop="144dp"
-        android:text="Velocidad Inicial 1"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName17"
-        app:layout_constraintHorizontal_bias="0.633"
+        android:layout_marginTop="20dp"
+        android:text="Velocidad inicial 1"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toStartOf="@+id/textResultIV1"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView9"
@@ -65,8 +75,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="20dp"
-        android:text="Velocidad Final"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName8"
+        android:text="Velocidad Final 2"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toStartOf="@+id/textFV2"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
@@ -74,41 +85,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="80dp"
         android:text="Masa 2"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName7"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toStartOf="@+id/textMass2IV"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="186dp"
+        android:id="@+id/textFV2"
+        android:layout_width="160dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+        app:layout_constraintTop_toBottomOf="@+id/textMass2IV" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="186dp"
+        android:id="@+id/textMass2IV"
+        android:layout_width="160dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintTop_toBottomOf="@+id/textFV1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="186dp"
+        android:id="@+id/textFV1"
+        android:layout_width="160dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintTop_toBottomOf="@+id/textMass1IV" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -129,17 +147,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="64dp"
+        android:textColor="@color/cardview_light_background"
         android:text="Masa 1"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toStartOf="@+id/textMass1IV"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="186dp"
+        android:id="@+id/textMass1IV"
+        android:layout_width="160dp"
         android:layout_height="45dp"
         android:layout_marginTop="44dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -162,8 +183,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="20dp"
-        android:text="Velocidad Final"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
+        android:text="Velocidad Final 1"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toStartOf="@+id/textFV1"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageView
@@ -173,6 +195,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:contentDescription="TODO"
+
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -195,22 +218,21 @@
         android:id="@+id/imageView18"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginStart="36dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/button"
         app:srcCompat="@drawable/inicial" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="256dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#2196F3"
         android:text="Calcular"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

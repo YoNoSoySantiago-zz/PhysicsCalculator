@@ -4,29 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:backgroundTint="@color/cardview_dark_background"
     tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/btnMass"
-        android:layout_width="245dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="24dp"
-        android:background="#03A9F4"
-        android:backgroundTint="#14B3C8"
-        android:backgroundTintMode="src_atop"
-        android:text="@string/masa"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/btnVelocity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/btnVelocity"
         android:layout_width="243dp"
         android:layout_height="66dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="24dp"
         android:background="#514E4E"
         android:backgroundTint="#14B3C8"
@@ -37,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMass" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/btnVelocityFinal"
@@ -58,12 +44,10 @@
         android:layout_width="195dp"
         android:layout_height="176dp"
         android:layout_marginTop="72dp"
-        android:layout_marginBottom="76dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnMass"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/log"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/log" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
