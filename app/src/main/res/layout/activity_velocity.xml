@@ -10,8 +10,8 @@
         android:id="@+id/editTextTextPersonName18"
         android:layout_width="129dp"
         android:layout_height="45dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toStartOf="@+id/textView17"
@@ -21,8 +21,8 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="20dp"
         android:text="Velocidad Inicial 2"
         app:layout_constraintEnd_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -31,8 +31,8 @@
         android:id="@+id/imageView19"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
         app:srcCompat="@drawable/inicial" />
@@ -41,7 +41,7 @@
         android:id="@+id/editTextTextPersonName17"
         android:layout_width="129dp"
         android:layout_height="45dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="28dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -52,10 +52,10 @@
         android:id="@+id/textView16"
         android:layout_width="112dp"
         android:layout_height="15dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="144dp"
         android:text="Velocidad Inicial 1"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName17"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -195,10 +195,22 @@
         android:id="@+id/imageView18"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="108dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
         app:srcCompat="@drawable/inicial" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="#2196F3"
+        android:text="Calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
