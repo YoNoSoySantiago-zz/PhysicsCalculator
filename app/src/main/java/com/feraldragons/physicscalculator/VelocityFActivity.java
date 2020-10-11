@@ -56,7 +56,7 @@ public class VelocityFActivity extends AppCompatActivity {
         builder.setMessage("Nuestro fisico aun no sabe como calcular esto, con datos no numericos :(");
         builder.setTitle("Formato no Valido");
         builder.setCancelable(true);
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
@@ -70,7 +70,7 @@ public class VelocityFActivity extends AppCompatActivity {
         builder.setMessage("Nuestro físico aun no sabe como colisionar objetos sin masa o con masa negativa :(");
         builder.setTitle("Masa no valida");
         builder.setCancelable(true);
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
