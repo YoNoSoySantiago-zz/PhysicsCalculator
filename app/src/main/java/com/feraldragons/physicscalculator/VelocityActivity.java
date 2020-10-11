@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+
 public class VelocityActivity extends AppCompatActivity {
     Button calculate;
     EditText result1;
@@ -38,8 +39,8 @@ public class VelocityActivity extends AppCompatActivity {
                     double vf2 = Double.parseDouble(edit.getText().toString());
                     if(mass1 > 0 && mass2>0){
                         double result[] =  calculator.calculateFinalVelocities(mass1,mass2,vf1,vf2);
-                        result1.setText(result[0]+"");
-                        result2.setText(result[1]+"");
+                        result1.setText(result[0]+" ");
+                        result2.setText(result[1]+" ");
                     }else{
                         MainActivity main = new MainActivity();
                         showAlertMass();

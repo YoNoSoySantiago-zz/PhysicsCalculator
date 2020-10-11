@@ -29,7 +29,7 @@
         android:layout_marginTop="72dp"
         android:layout_marginEnd="20dp"
         android:textColor="@color/cardview_light_background"
-        android:text="Velocidad Inicial 2"
+        android:text="@string/velocidad_inicial_2"
         app:layout_constraintEnd_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -42,7 +42,8 @@
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
-        app:srcCompat="@drawable/inicial" />
+        app:srcCompat="@drawable/inicial"
+        android:contentDescription="@string/todo" />
 
     <EditText
         android:id="@+id/textResultIV1"
@@ -73,22 +74,26 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="20dp"
         android:text="Velocidad Final 2"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/textFV2"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="80dp"
         android:text="Masa 2"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/textMass2IV"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
@@ -134,9 +139,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:contentDescription="TODO"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ma1" />
@@ -145,11 +148,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="64dp"
-        android:textColor="@color/cardview_light_background"
         android:text="Masa 1"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/textMass1IV"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -171,8 +176,6 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:contentDescription="TODO"
-        app:layout_constraintEnd_toStartOf="@+id/textView6"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/velocimetro" />
@@ -181,11 +184,13 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="20dp"
         android:text="Velocidad Final 1"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/textFV1"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageView
@@ -196,8 +201,6 @@
         android:layout_marginTop="40dp"
         android:contentDescription="TODO"
 
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/masfinal" />
@@ -208,8 +211,6 @@
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView9"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:srcCompat="@drawable/velocimetro" />
