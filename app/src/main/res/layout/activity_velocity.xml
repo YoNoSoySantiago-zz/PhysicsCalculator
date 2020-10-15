@@ -10,9 +10,9 @@
 
     <EditText
         android:id="@+id/textResultIV2"
-        android:layout_width="129dp"
+        android:layout_width="90dp"
         android:layout_height="45dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="44dp"
 
         android:backgroundTint="@color/cardview_light_background"
@@ -29,7 +29,7 @@
         android:layout_height="38dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:text="Velocidad inicial 2(m/s)"
+        android:text="Velocidad inicial2 (m/s)"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -39,21 +39,22 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
-        app:srcCompat="@drawable/inicial"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/inicial" />
 
     <EditText
         android:id="@+id/textResultIV1"
-        android:layout_width="129dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/cardview_light_background"
-        android:ems="10"
 
+        android:ems="10"
         android:enabled="false"
         android:inputType="textPersonName"
         android:textColor="@color/cardview_light_background"
@@ -64,8 +65,9 @@
         android:id="@+id/textView16"
         android:layout_width="125dp"
         android:layout_height="36dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:text="Velocidad inicial 1(m/s)"
+        android:text="Velocidad inicial1 (m/s)"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/textResultIV1"
         app:layout_constraintHorizontal_bias="0.439"
@@ -78,10 +80,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="20dp"
         android:text="Velocidad Final 2(m/s)"
         android:textColor="@color/cardview_light_background"
-        app:layout_constraintEnd_toStartOf="@+id/textFV2"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -91,47 +91,44 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="80dp"
         android:text="Masa 2(kg)"
         android:textColor="@color/cardview_light_background"
-        app:layout_constraintEnd_toStartOf="@+id/textMass2IV"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/textFV2"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
-        android:backgroundTint="@color/cardview_light_background"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMass2IV" />
 
     <EditText
         android:id="@+id/textMass2IV"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
         android:autofillHints=""
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
-        android:backgroundTint="@color/cardview_light_background"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textFV1" />
 
     <EditText
         android:id="@+id/textFV1"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
-        android:backgroundTint="@color/cardview_light_background"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMass1IV" />
@@ -153,16 +150,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="64dp"
         android:text="Masa 1 (kg)"
         android:textColor="@color/cardview_light_background"
-        app:layout_constraintEnd_toStartOf="@+id/textMass1IV"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/textMass1IV"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="44dp"
         android:backgroundTint="@color/cardview_light_background"
@@ -189,11 +184,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="76dp"
-        android:layout_marginEnd="20dp"
         android:text="Velocidad Final 1(m/s)"
         android:textColor="@color/cardview_light_background"
-        app:layout_constraintEnd_toStartOf="@+id/textFV1"
-        app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 

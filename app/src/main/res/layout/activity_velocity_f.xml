@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="32dp"
-        android:text="Velocidad Final 2(m/s)"
+        android:text="Velocidad Final2 (m/s)"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toStartOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="25dp"
-        android:text="Velocidad Final 1(m/s)"
+        android:text="Velocidad Final1 (m/s)"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -84,13 +84,13 @@
 
     <EditText
         android:id="@+id/textIV2"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/cardview_light_background"
-        android:backgroundTint="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMass2FV" />
 
@@ -128,13 +128,13 @@
 
     <EditText
         android:id="@+id/textMass2FV"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/cardview_light_background"
-        android:backgroundTint="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textIV1" />
 
@@ -151,13 +151,13 @@
 
     <EditText
         android:id="@+id/textIV1"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/cardview_light_background"
-        android:backgroundTint="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMass1FV" />
 
@@ -184,13 +184,13 @@
 
     <EditText
         android:id="@+id/textMass1FV"
-        android:layout_width="160dp"
+        android:layout_width="120dp"
         android:layout_height="45dp"
         android:layout_marginTop="44dp"
+        android:backgroundTint="@color/cardview_light_background"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/cardview_light_background"
-        android:backgroundTint="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
